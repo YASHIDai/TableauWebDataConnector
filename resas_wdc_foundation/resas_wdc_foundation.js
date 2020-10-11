@@ -53,7 +53,6 @@
             async: false
         }).done(function(resp) {
             resp.result.forEach(function(data) { prefectureArray.push(data); });
-            console.log("fetching pref data :"+ JSON.stringify(resp) );
         }).fail(function() {
             tableau.abortWithError('An error has occured while trying to connect to prefectures api.');
         });   
@@ -70,7 +69,6 @@
                         async: false
             }).done(function(resp) {
                 resp.result.forEach(function(data) { cityArray.push(data); });
-                console.log("fetching city data :"+ JSON.stringify(resp) );
             }).fail(function() {
                 tableau.abortWithError('An error has occured while trying to connect to cities api.');
             });
@@ -93,7 +91,6 @@
                             headers: { 'X-API-KEY': resas_api_key },
                             async: false
                 }).done(function(resp, textStatus) {
-                    console.log("fetching data :"+ JSON.stringify(resp) );
                     if (resp.result == null){ return;}
                     resp.result.data.forEach(function(data){
                         tableData.push({
