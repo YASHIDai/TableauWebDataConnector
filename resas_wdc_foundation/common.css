@@ -1,0 +1,19 @@
+.vertical-center {
+  align-items[i]: center;
+  text-align: center;
+  background-color: #000000;
+}
+
+.logodiv {
+    margin-bottom: 10px;
+}
+
+.input_form {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+body {
+  background-color: #000000;
+}
