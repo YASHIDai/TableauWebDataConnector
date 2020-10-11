@@ -26,5 +26,6 @@
 -
 
 #### ミラサポplus 制度ナビ（https://seido-navi.mirasapo-plus.go.jp）
--
--
+| タイトル | WebデータコネクタURL | API仕様 |
+| --- | --- | --- |
+| 制度ナビ一覧 | https://yashidai.github.io/TableauWebDataConnector/seido-navi_wdc/ | [API仕様](https://app.swaggerhub.com/apis/JPSMEA/api-search-case-and-assistance-data/4.0) |
