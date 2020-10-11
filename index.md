@@ -3,8 +3,11 @@
 ### List
 
 #### RESAS(https://opendata.resas-portal.go.jp/)
--
--
+
+| タイトル | WebデータコネクタURL | API仕様 |
+| --- | --- | --- |
+| 創業比率 | https://yashidai.github.io/TableauWebDataConnector/resas_wdc_foundation/ | [API仕様](https://opendata.resas-portal.go.jp/docs/api/v1/municipality/foundation/perYear.html) |
+
 
 #### e-Stat(https://www.e-stat.go.jp/api/)
 -
