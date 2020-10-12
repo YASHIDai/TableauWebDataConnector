@@ -22,8 +22,9 @@
 -
 
 #### ここから調達　（https://u10sme.smrj.go.jp/apidoc/API-reference.html）
--
--
+| タイトル | WebデータコネクタURL | API仕様 |
+| --- | --- | --- |
+| 企業情報 | https://yashidai.github.io/TableauWebDataConnector/procurement_wdc/ | [API仕様](https://u10sme.smrj.go.jp/apidoc/API-reference.html) |
 
 #### ミラサポplus 制度ナビ（https://seido-navi.mirasapo-plus.go.jp）
 | タイトル | WebデータコネクタURL | API仕様 |
