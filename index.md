@@ -14,8 +14,10 @@
 -
 
 #### gBizInfo(https://info.gbiz.go.jp/api/index.html)
--
--
+
+| タイトル | WebデータコネクタURL | API仕様 |
+| --- | --- | --- |
+| 法人活動情報（補助金） | https://yashidai.github.io/TableauWebDataConnector/gbizinfo_wdc/hojyokin.html | [API仕様](https://info.gbiz.go.jp/api/document/API.pdf) |
 
 #### 法人番号公表サイト(https://www.houjin-bangou.nta.go.jp/webapi/)
 -
