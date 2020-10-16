@@ -44,7 +44,7 @@
                 console.log('offset:'+offset);
                 var xhr = $.ajax({
                             type: 'GET',
-                            url: gbizinfo_api_url + '+OFFSET+' + offset + '+LIMIT+100',
+                            url: gbizinfo_api_url + '+OFFSET+' + offset + '+LIMIT+1000',
                             dataType: 'json',
                             async: false
                 }).done(function(resp, textStatus) {
@@ -64,7 +64,7 @@
                             "remmei": (data.remmei)?data.remmei.value:"",
                         });    
                     })
-                    offset=offset+100;
+                    offset=offset+1000;
                 }).fail(function() {
                     tableau.abortWithError("An error has occured while trying to connect to api.");
                     offset = 500000
