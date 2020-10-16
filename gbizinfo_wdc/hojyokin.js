@@ -69,7 +69,7 @@
                     tableau.abortWithError("An error has occured while trying to connect to api.");
                     offset = 500000
                 });
-                sleep(1000);
+                sleep(4000);
             }
         });
         table.appendRows(tableData);
