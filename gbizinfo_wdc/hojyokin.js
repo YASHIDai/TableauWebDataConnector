@@ -40,7 +40,7 @@
         deferredObj.resolve();
         //ループ
         deferredObj.promise().then(function() { 
-            while(offset < 500){
+            while(offset < 500000){
                 console.log('offset:'+offset);
                 var xhr = $.ajax({
                             type: 'GET',
